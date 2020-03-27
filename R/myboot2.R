@@ -1,4 +1,6 @@
 #' myboot2
+#'a function that takes in data and with that data makes a specified number of sample statistics from the population.
+#'These statistics can then be used to make confidence intervals of the entire population.
 #'
 #' @param iter - how many samples you want
 #' @param x - the data
