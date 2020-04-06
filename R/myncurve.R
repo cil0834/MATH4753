@@ -1,5 +1,3 @@
-
-
 #' myncurve
 #'
 #' This function takes the average, standard deviation and plots a normal graph
