@@ -2,7 +2,9 @@
 % Please edit documentation in R/myboot2.R
 \name{myboot2}
 \alias{myboot2}
-\title{myboot2}
+\title{myboot2
+a function that takes in data and with that data makes a specified number of sample statistics from the population.
+These statistics can then be used to make confidence intervals of the entire population.}
 \usage{
 myboot2(iter = 10000, x, fun = "mean", alpha = 0.05, cx = 1.5, ...)
 }
@@ -24,6 +26,8 @@ a histogram of the distribution of the samples which has a histogram, the confid
 }
 \description{
 myboot2
+a function that takes in data and with that data makes a specified number of sample statistics from the population.
+These statistics can then be used to make confidence intervals of the entire population.
 }
 \examples{
 myboot2(10000,x=sam,fun="mean",alpha=0.05,xlab="mean",col="Purple",cx=1.5)
