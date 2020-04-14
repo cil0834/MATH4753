@@ -1,6 +1,7 @@
 #' Myab
 #'
-#' This function plots the alpha (type 1 errors) and beta (type 2 errors) of the mean
+#' This function plots the alpha (type 1 errors) and beta (type 2 errors) of the mean of perfectly normally
+#' distributed distributions
 #' Given one sample we can visualize how the beta's alphas change based off of various cuttoff values, standard deviations
 #' and sample sizes.
 #'
